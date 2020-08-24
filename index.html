@@ -3,47 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>우리 결혼합니다</title>
   </head>
 
-  <body style="padding: none; margin: 0; font-family: serif;">
-    <!-- 우리 결혼합니다 -->
+  <body>
+    <div class="first-page">
+      <img src="img/main_top_bg.jpg" style="width: 100%;" />
+      <h1>
+        우 리 결 혼 합 니 다
+      </h1>
+      <br />
+      <h2 class="first-page__date">
+        12 / 05
+      </h2>
+      <br />
+      <h3>
+        유정현 * 이지양
+      </h3>
+      <br />
+      <p style="text-align: center; line-height: 24px;">
+        2020.12.05 SAT 01:00 pm <br />
+        소풍컨벤션웨딩 7층 라온제나홀
+      </p>
+    </div>
 
-    <img src="img/main_top_bg.jpg" style="width: 100%;" />
-    <h1 style="text-align: center; margin-top: 120px; margin-bottom: 0;">
-      우 리 결 혼 합 니 다
-    </h1>
-    <br />
-    <h2
-      style="
-        text-align: center;
-        margin: 0;
-        font-family: sans-serif;
-        color: rgb(41, 124, 41);
-        font-weight: 400;
-      "
-    >
-      12 / 05
-    </h2>
-    <br />
-    <h3 style="text-align: center; margin-top: 100px; margin-bottom: 0;">
-      유정현 * 이지양
-    </h3>
-    <br />
-    <p style="text-align: center; line-height: 24px;">
-      2020.12.05 SAT 01:00 pm <br />
-      소풍컨벤션웨딩 7층 라온제나홀
-    </p>
-
-    <!-- 초대합니다 -->
-
-    <div
-      style="
-        background-color: #fbfbfb;
-        padding-top: 100px;
-        margin-bottom: 100px;
-      "
-    >
+    <div style="padding-top: 100px; margin-bottom: 100px;">
       <img src="img/title_img_1.jpg" style="width: 100%;" />
 
       <p
@@ -80,26 +65,10 @@
         <img src="img/sms25.png" style="vertical-align: -5px;" />
       </p>
     </div>
-    <div
-      style="
-        text-align: center;
-        padding: 15px;
-        background-color: rgb(75, 126, 75);
-        color: white;
-      "
-    >
+    <div class="contact-title">
       <span>혼주분께 연락하기</span>
     </div>
-    <div
-      style="
-        text-align: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        margin-bottom: 60px;
-        background-color: rgb(229, 240, 229);
-        font-size: 15px;
-      "
-    >
+    <div class="contact-family">
       <div style="margin-bottom: 30px;">
         <span style="margin-right: 170px;">신랑측 혼주</span>
         <span>신부측 혼주</span>
@@ -146,30 +115,15 @@
 
     <img src="img/title_img_4.jpg" style="width: 100%; margin-bottom: 60px;" />
 
-    <img src="img/map.jpg" style="width: 100%;" />
+    <div class="map-photo">
+      <img src="img/map.jpg" />
+    </div>
 
-    <div
-      style="
-        background-color: grey;
-        padding: 10px 0px;
-        text-align: center;
-        font-family: sans-serif;
-        color: white;
-        font-weight: 600;
-        margin-bottom: 50px;
-      "
-    >
+    <div class="map-link">
       <span>카카오맵 바로가기</span>
     </div>
 
-    <div
-      style="
-        text-align: center;
-        margin-bottom: 50px;
-        font-family: sans-serif;
-        font-size: 14px;
-      "
-    >
+    <div class="transport">
       <p>
         소풍컨벤션웨딩 7층 라온제나홀 <br />
         경기 부천시 송내대로 239 <br />
@@ -197,24 +151,21 @@
       </p>
     </div>
 
-    <div
-      class="SNS"
-      style="display: flex; background-color: rgb(168, 167, 167); width: 100%;"
-    >
-      <div>
+    <div class="SNS">
+      <div class="SNS__image">
         <img src="img/btn_facebook.png" />
       </div>
-      <div>
+      <div class="SNS__image">
         <img src="img/btn_twitter.png" />
       </div>
-      <div>
+      <div class="SNS__image">
         <img src="img/btn_kakao.png" />
       </div>
-      <div>
+      <div class="SNS__image">
         <img src="img/btn_story.png" />
       </div>
     </div>
-    <div style="background-color: rgb(99, 99, 99); text-align: center;">
+    <div class="footer-img">
       <img src="img/logo_bhandscard.png" />
     </div>
   </body>
