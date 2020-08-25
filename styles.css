@@ -1,64 +1,96 @@
 @import "./reset.css";
 
-header {
-  margin-top: 30px;
+* {
 }
 
-.Notice-bold {
+body {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+
+h1 {
+  margin-top: 120px;
+  margin-bottom: 0;
+  font-size: 35px;
   text-align: center;
-  font-weight: 700;
-  font-size: 12px;
-  margin-bottom: 20px;
 }
 
-.Notice-normal {
+h2 {
   text-align: center;
-  font-size: 12px;
-  line-height: 17px;
-  margin-bottom: 30px;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.iphoneSe {
-  background-color: black;
-  color: white;
+h3 {
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
-.iphone-title {
-  font-size: 50px;
-  margin-bottom: 10px;
-  font-weight: 600;
+.first-page {
+  height: 100%;
 }
 
-.iphone-price {
-  font-size: 27px;
+.first-page__date {
+  font-size: 24px;
   font-weight: 300;
-  line-height: 29px;
-  margin-bottom: 20px;
+  color: rgb(41, 124, 41);
 }
 
-.iphone-subprice {
-  color: grey;
+.contact-title {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(75, 126, 75);
+  color: white;
 }
 
-.iphone-link {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  margin-bottom: 30px;
+.contact-family {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 60px;
+  background-color: rgb(229, 240, 229);
+  font-size: 15px;
 }
 
-.iphone-img {
-  margin-bottom: -100px;
-}
-
-img {
+.map-photo {
   width: 100%;
+  margin: 0;
 }
 
-.iphoneEleven {
-  margin-top: 70px;
+.map-link {
+  background-color: grey;
+  padding: 10px 0px;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.transport {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.SNS {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(168, 167, 167);
+}
+
+.SNS .SNS__image {
+  width: 25%;
+}
+
+.footer-img {
+  background-color: rgb(99, 99, 99);
   text-align: center;
 }
